@@ -35,7 +35,7 @@ export default function App() {
   const [currentUser, setCurrentUser] = useState<any>(null);
   const [currentTime, setCurrentTime] = useState(new Date());
   const [isLoading, setIsLoading] = useState(true);
-  const [theme, setTheme] = useState('light'); // 'light' or 'dark'
+  const [theme, setTheme] = useState('dark'); // 'light' or 'dark'
   const [platform, setPlatform] = useState('ios'); // 'ios' or 'android'
 
   // Update time every minute
